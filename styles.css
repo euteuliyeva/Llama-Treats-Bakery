@@ -1,0 +1,482 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Laila', serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+/*--Search Box--*/
+.search-form {
+  border-radius: 30px 30px 30px 30px;
+  position: relative;
+  border-color: #8d532c;
+  display: flex;
+
+}
+
+.search-btn {
+  border-radius: 0px 30px 30px 0px;
+  cursor:pointer;
+  border-color: #8d532c;
+}
+
+.form-line {
+  border-radius: 100px;
+}
+
+.desktopmod {
+display:block; 
+}
+
+.mobilemod {
+  display:none;
+}
+
+
+.fa-solid {
+  position: relative;
+  color:#8d532c;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+/*--Navbar--*/
+
+.navbar{
+  background-color: #EFDACC;
+  border-bottom: 10px solid rgb(178, 113, 59);
+
+}
+.logo{
+  height: 100%;
+  width: auto;
+}
+
+.nav-link{
+  color:rgb(56, 52, 52)!important;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon{
+  color: #1a1918;
+}
+
+.navbar ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(141, 83, 25);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+
+.navbar-nav > li{
+  padding-left:80px;
+  padding-right:80px;
+  padding-top: 60px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*Hero Section*/
+
+.masthead {
+  align-items: right;
+  background-image: url("images/herobackground.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+}
+
+.herobox{
+  width: 55%;
+  
+}
+
+.heading{
+  padding-top: 40px;
+  color: #000000;
+  font-size: 50px; 
+  font-family: "Laila", serif;
+  font-weight: 600; 
+
+}
+
+.subhead{
+  color: #403d3b;
+  font-size: 24px; 
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400; 
+}
+
+
+.notes{
+  color: black; 
+  font-size: 16px; 
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  line-height: 25px; 
+  letter-spacing: 1.2px; 
+  word-wrap: break-word;
+}
+
+.productbg{
+  align-items: right;
+  background-image: url("images/productsbckg.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+ 
+}
+
+/*--About Section--*/
+
+.about img{
+  position: relative;
+  width: 100%;
+}
+
+.description {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.bakerimg{
+  width: 140px;
+  height: 140px;
+  margin-left: -50px;
+}
+  
+
+/*--Buttons--*/
+.mainbtn{
+  display: inline-flex;
+  text-align: center; 
+  color: white; 
+  font-size: 32px; 
+  font-family: 'Laila';
+  font-weight: 500; 
+  line-height: 15px; 
+  word-wrap: break-word;
+  height: 75px; 
+  padding: 13px 26px;
+  background: #AF5F08; 
+  border-radius: 52px; 
+  justify-content: center; 
+  align-items: center; 
+  text-decoration: none;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.decorbtn{
+  position: relative; 
+  text-align: center;
+  color: #dfcfcf; 
+  font-size: 20px; 
+  font-family: 'Laila';
+  font-weight: 400; 
+  line-height: 38px; 
+  color: #AF5F08; 
+  font-size: 20px; 
+  font-family: 'Laila';
+  font-weight: 400; 
+  text-decoration: underline; 
+  line-height: 38px; 
+  align-items: center;
+  }
+
+  .secondbtn{
+    display: inline-flex;
+    text-align: center; 
+    font-size: 32px; 
+    font-family: 'Laila';
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+    height: 75px; 
+    padding: 14px 28px;
+    background: #eee0d2; 
+    border-radius: 52px; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 30px ;
+    padding-left: 25px;
+  }
+
+  .divider{
+    position: relative;
+    margin-bottom: 20px;
+  }
+.confettis{
+  position:relative;
+  
+}
+
+/*--REVIEWS SECTION--*/
+
+
+/*--image appear--*/
+.review-item{ 
+transition: all .3s ease-in-out;
+transform: scale(0.9);
+opacity: 0.9;
+}
+
+/*--Reviews: box styling--*/
+.reviews-text{
+  padding: 100px 50px 75px;
+  border-radius: 38px;
+  transition: all .3s ease-in-out;
+  border-style: dashed;
+  border-color: #C48747;
+  margin-bottom: 50px;
+}
+
+/*--Reviews: text styling--*/
+.reviews-text p{
+  color:black; 
+  font-family: Quicksand;
+  line-height: 34px;
+  text-align: center;
+}
+
+/*--Quote bottom--*/
+.reviews-text-after{
+  position: absolute;
+  color: #ebd0bd;
+  font-size: 80px;
+  bottom: -50px;
+  right: -15px;
+}
+
+/*--Quote right--*/
+.reviews-text-before{
+  position: absolute;
+  color: #ebd0bd;
+  font-size: 80px;
+  top: -50px;
+  left: -15px;
+}
+
+/*--Star ratings--*/
+.reviews-text .listing-rating{
+  margin-bottom: 12px;
+  text-align: center;
+  
+}
+
+.listing-rating i{
+  color:rgb(228, 184, 84);
+  
+}
+
+/*--Avatar positioning--*/
+.review-avatar{
+  position: absolute;
+  left: 45%;
+  top: -60px;
+  width: 140px;
+  height: 140px;
+  margin-left: -50px;
+}
+
+/*--Avatar styling--*/
+.review-avatar img{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: 6px solid #ebd0bd;
+  box-shadow: 0 10px 10px #a0855c;
+}
+
+
+/*--Footer--*/
+
+.footer{
+  font-family: 'Laila', sans-serif; 
+  background: #EFDACC;
+  font-size: 20px;
+  border-top: 10px solid rgb(178, 113, 59);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.fthead{
+  font-weight: 700;
+}
+
+.footer ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(141, 83, 25);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+.footer ul li:hover::after{
+  width: 50%;
+}
+
+.footer :hover{
+text-decoration-line: rgb(141, 87, 17);
+}
+
+
+
+/*----MOBILE----*/
+
+@media (min-width: 768px) {
+  section.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+    padding-left: 20rem;
+  }
+  section.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  section.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+
+
+/* ----Responsive Logo ---- */
+@media (max-width: 768px){
+
+  .desktopmod {
+    display:none; 
+    }
+  
+    .mobilemod {
+      display:block;
+    }
+
+    .logo{
+      height: 10%;
+      width: auto;
+    }
+}
+
+
+body {
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL (PRODUCTS)
+-------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* PRODUCTS CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.products .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.products h2 {
+  font-weight: 400;
+}
+
+.products .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+
+/* Thin out the products headings */
+.about-heading {
+  font-weight: 300;
+  line-height: 1;
+ 
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .about-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .about-heading {
+    margin-top: 7rem;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #EFDACC;
+  align-items: center;
+ 
+}
+
+footer p{
+  color: white;
+  padding-top: 25px;
+}
+}
