@@ -40,44 +40,43 @@
   <!-- <div class="container">-->
   <header>
 
-    <nav class="navbar navbar-expand-lg"> <!--'fixed-top' to freeze the navbar if needed-->
+    <nav class="navbar navbar-expand-lg navbar-light"> <!--'fixed-top' to freeze the navbar if needed-->
       <div class="container-fluid">
-        <a class="navbar-brand mobilemod" href="index.html"><img class="logo" src="images/10.png"
-          alt="Llama Treats Bakery Home Page" width="70px" /></a>
+        <a class="navbar-brand d-lg-none" href="index.html"><img src="images/10.png"
+          alt="Llama Treats Bakery Home Page" /></a>
           
+          <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span> <!--icon for hamburger menu-->
+            </button>
+
         <div class="row justify-content-center">
          
           <div class="row d-flex justify-content-end mt-4">
             <div class="col-md-auto">
               <form id="search-form" class="form-inline" role="form" method="post" action="#" target="_blank">
                 <div class="input-group">
-                  <input type="text" class="form-control search-form" placeholder="Search">
-                  <span class="input-group-btn"><button type="submit" class="btn btn-light search-btn"
+                  <input type="text" class="form-control search-form d-none d-lg-block" placeholder="Search">
+                  <span class="input-group-btn"><button type="submit" class="btn btn-light search-btn d-none d-lg-block"
                       data-target="#search-form" name="q"><i class="fa fa-search"></i>
                     </button>
                   </span>
                 </div>
               </form>
             </div>
-            <div class="col-1">
+            <div class="col-1 nav-icons d-none d-lg-block">
               <i class="fa-solid fa-cart-shopping"></i>
               <i class="fa-solid fa-user"></i>
             </div>
             
            
-            <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarCollapse"
-              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span> <!--icon for hamburger menu-->
-            </button>
-
-
-
+            
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav text-uppercase mx-auto justify-content-center align-items-center">
                 <li class="nav-item"><a class="nav-link active" href="index.html">Menu</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <a class="navbar-brand desktopmod" href="index.html"><img src="images/10.png"
-                    alt="Llama Treats Bakery Home Page" width="150px" /></a>
+                <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="images/10.png"
+                    alt="Llama Treats Bakery Home Page" /></a>
 
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Order Now</a></li>
@@ -94,14 +93,14 @@
     <section id="masthead" class="masthead">
       <div class="container specials">
         <div class="row align-items-center mt-3">
-           <img src="images/box.png" alt="Box" class="herobox align-items-center">
+           <img src="images/box.png" alt="box" class="herobox align-items-center">
        
           <div class="col-md-4 mt-5">
             <div class="row features justify-content-around ">
               <a href="#" class="mainbtn btn btn-light rounded-pill" role="button" data-bs-toggle="button"
                 aria-pressed="true">View featured items</a>
             </div>
-            <div class="row justify-content-around mt-3 ">
+            <div class="row align-items-center justify-content-around mt-3 ">
               <p class="notes text-uppercase">*SOME INGREDIENTS CAN BE REPLACED UPON SPECIAL REQUEST PER ORDER BASED ON
                 DIETARY NEEDS.*</p>
             </div>
